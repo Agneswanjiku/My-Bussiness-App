@@ -5,15 +5,41 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
 
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="442dp"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="381dp"
-        android:layout_height="101dp"
+        android:layout_width="371dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="-4dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
         android:gravity="left"
         android:orientation="vertical"
         android:padding="20dp"
@@ -27,7 +53,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
         android:layout_marginTop="182dp"
-        android:fontFamily="monospace"
+        android:fontFamily="casual"
         android:text="CashierName" />
 
     <EditText
@@ -37,6 +63,76 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="191dp"
+        android:layout_marginEnd="51dp"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
+    <TextView
+        android:id="@+id/cashier_name_edit_text"
+        android:layout_width="136dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="casual"
+        android:text="Customercharges" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="117dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="321dp"
+        android:fontFamily="casual"
+        android:text="CustomerPayment" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="29dp"
+        android:ems="10"
+        android:inputType=""
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="322dp"
         android:layout_marginEnd="29dp"
         android:ems="10"
         android:inputType="textPersonName"
