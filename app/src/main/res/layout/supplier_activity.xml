@@ -79,16 +79,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName12"
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="Register"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="672dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
