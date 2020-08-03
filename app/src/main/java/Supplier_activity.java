@@ -23,6 +23,9 @@ public class Supplier_activity extends AppCompatActivity {
         EditText email;
         Button register;
 
+
+
+
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -41,6 +44,7 @@ public class Supplier_activity extends AppCompatActivity {
             });
         }
 
+
         boolean isEmail(EditText text) {
             CharSequence email = text.getText().toString();
             return (!TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
@@ -50,6 +54,7 @@ public class Supplier_activity extends AppCompatActivity {
             CharSequence str = text.getText().toString();
             return TextUtils.isEmpty(str);
         }
+
 
         void checkDataEntered() {
             if (isEmpty(SupplierfirstName)) {

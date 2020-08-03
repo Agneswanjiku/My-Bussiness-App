@@ -5,4 +5,7 @@
     <item name="address" type="id" />
     <item name="SupplierlastName" type="id" />
     <item name="SupplierfirstName" type="id" />
+    <item name="findRegisterButton" type="id" />
+    <item name="locationEditText" type="id" />
+    <item name="goodsEditText" type="id" />
 </resources>
