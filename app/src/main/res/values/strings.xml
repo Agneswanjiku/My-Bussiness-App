@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">My Bussiness App</string>
+    <string name="feedbacktitle">suppplier</string>
+    <string name="feedbackbutton">string</string>
 </resources>
