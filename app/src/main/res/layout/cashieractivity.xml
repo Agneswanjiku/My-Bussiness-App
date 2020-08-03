@@ -12,5 +12,67 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
+        android:fontFamily="monospace"
+        android:includeFontPadding="true"
         android:text="CashierForm" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="CashierName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="203dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginEnd="193dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Time" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="195dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="address" />
+
+
+
+
 </RelativeLayout>

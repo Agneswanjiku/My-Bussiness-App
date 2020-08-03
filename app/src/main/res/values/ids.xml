@@ -8,4 +8,7 @@
     <item name="findRegisterButton" type="id" />
     <item name="locationEditText" type="id" />
     <item name="goodsEditText" type="id" />
+    <item name="date" type="id" />
+    <item name="VerifiedBY" type="id" />
+    <item name="cashierName" type="id" />
 </resources>

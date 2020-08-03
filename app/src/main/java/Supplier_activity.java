@@ -29,7 +29,7 @@ public class Supplier_activity extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.supplier_activity);
             SupplierfirstName = findViewById(R.id.SupplierfirstName);
             SupplierlastName = findViewById(R.id.SupplierlastName);
             address = findViewById(R.id.address);
@@ -55,7 +55,7 @@ public class Supplier_activity extends AppCompatActivity {
             return TextUtils.isEmpty(str);
         }
 
-
+//registration toast alert message
         void checkDataEntered() {
             if (isEmpty(SupplierfirstName)) {
                 Toast t = Toast.makeText(this, "You must enter first name to register!", Toast.LENGTH_SHORT);
