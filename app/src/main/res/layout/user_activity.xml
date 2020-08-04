@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/holo_blue_light"
         tools:ignore="MissingConstraints" />
 
 
@@ -21,7 +21,7 @@
         android:id="@+id/third_activity_previous_button"
         android:layout_width="424dp"
         android:layout_height="61dp"
-        android:text="Supplier Form"
+        android:text="USER TRANSPORT  DETAILS"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="SupplierFirstName"
+        android:text="UserFirstName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="SupplierSecondName"
+        android:text="UserlastName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,5 +87,18 @@
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="672dp"
         tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="204dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Location"
+        android:textAppearance="@style/GreenText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="279dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

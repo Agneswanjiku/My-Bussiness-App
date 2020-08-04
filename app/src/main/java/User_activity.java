@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.moringaschool.mybussinessapp.R;
 
-public class Supplier_activity extends AppCompatActivity {
+public class User_activity extends AppCompatActivity {
 
 
 
@@ -29,7 +29,7 @@ public class Supplier_activity extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.supplier_activity);
+            setContentView(R.layout.user_activity);
             SupplierfirstName = findViewById(R.id.SupplierfirstName);
             SupplierlastName = findViewById(R.id.SupplierlastName);
             address = findViewById(R.id.address);

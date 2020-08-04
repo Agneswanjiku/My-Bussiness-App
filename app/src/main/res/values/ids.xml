@@ -11,4 +11,5 @@
     <item name="date" type="id" />
     <item name="VerifiedBY" type="id" />
     <item name="cashierName" type="id" />
+    <item name="officeName" type="id" />
 </resources>
