@@ -1,5 +1,7 @@
 <br>My Bussiness App<br>
 This is an android application that can be used to facilitate the services between the buyer, cashier, and supplier in online market.
+![Screenshot from 2020-08-04 10-11-00](https://user-images.githubusercontent.com/63198747/89263974-da788480-d63a-11ea-95c2-f2436d9f406c.png)
+
 
 <br>
 Built With
