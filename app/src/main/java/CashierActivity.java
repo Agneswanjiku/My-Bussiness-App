@@ -40,8 +40,8 @@ EditText VerifiedBy;
     }
 
 
-    boolean isEmail(EditText text) {
-        CharSequence email = text.getText().toString();
-        return (!TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
+    boolean isCashierName(EditText text) {
+        CharSequence cashiername = text.getText().toString();
+        return (!TextUtils.isEmpty(cashiername) && Patterns.EMAIL_ADDRESS.matcher(cashiername).matches());
     }
 }
